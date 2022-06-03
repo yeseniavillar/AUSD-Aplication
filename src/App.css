@@ -1,38 +1,185 @@
-.App {
+*{
+  margin: 0;
+  padding: 0;
+  
+}
+body{
+  font-family: arial, sans-serif;
+}
+h2{
+  text-align: center;
+  font-size: 30px;
+  color: blue;
+}
+.container-form{
+  
+  width: 90%;
+  margin: auto;
+}
+
+.app-container {
+  /*display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 1rem;*/
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+  
+}
+
+.table {
+  border-collapse: collapse;
+  border: 1px solid #ccc;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  /*table-layout: fixed;
+  */
+}
+
+.table th,
+.table td {
+  /*border: 1px solid #dddddd;*/
+  text-align: center;
+  padding: 8px;
+  font-size: 18px;
+  
+}
+thead{
+  text-transform: uppercase;
+}
+th {
+  
+  background-color: rgb(117, 201, 250);
+}
+.table tbody tr:hover{
+  background:rgb(151, 199, 229);
+}
+/*td {
+  background-color: rgb(235, 241, 245);
+}*/
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+form {
+  display: flex;
+  gap: 5px;
+}
+
+form td:last-child {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+form * {
+  font-size: 28px;
+}
+/*========== Media quiere =============*/
+@media only screen and (max-width: 650px) {
+  .table{
+    border: 0px;
+  }
+  .table thead th{
+    /*display: none;*/
+    font-size: 12px;
+  }
+  .table tr{
+    margin-bottom: 8px;
+    border-bottom:4px solid #ddd;
+    display: block;
+  }
+ .table th,
+.table td {
+  font-size: 14px;
+  
+}
+.table td {
+  display: block;
+  border-bottom:1px solid #ddd;
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.table td:last-child{
+border-bottom: 0px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+tr:nth-child(even) {
+  background-color:#ffff;
+}
+.table tbody tr:hover{
+  background:#eae7e789;
+}
+}
+@media only screen and (max-width: 400px){
+  .table thead th{
+   font-size: 10px;
+  }
+  h2{
+    font-size: 18px;
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+
+/*========== Style for form=============*/
+
+.contact {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+
+
+form {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  width: auto;
+  height: auto;
+  padding: 30px;
 }
 
-.App-link {
-  color: #61dafb;
+form input {
+  height: 45px;
+  width: 60%;
+  color: rgb(37, 36, 36);
+  margin: 5px 0px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
+
+input::placeholder{
+  color: rgb(43, 41, 41);
+  font-family: arial, sans-serif;
+  font-size: 18px;
+}
+form input:focus,
+textarea:focus {
+  outline: none;
+}
+
+.btn-form {
+  margin-top:25px;
+  width: 140px;
+  height: 40px;
+  border: none;
+  background-color: #1077c5;
+  color: whitesmoke;
+  font-size: 15px;
+  cursor: pointer;
+
+}
+
+form button {
+  margin-top:5px;
+  width: 60px;
+  height: 30px;
+  border: none;
+  background-color: #1077c5;
+  color: whitesmoke;
+  font-size: 15px;
+  cursor: pointer;
+}
+@media only screen and (max-width: 650px) {
+  .contact .rightSide h1 {
+    font-size:30px ;
   }
 }

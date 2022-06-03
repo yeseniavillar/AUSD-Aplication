@@ -1,0 +1,72 @@
+[
+    {
+      "id": 1,
+      "fullName": "Yesenia Villar",
+      "matricula": "100142294",
+      "calificacion": "95",
+      "email": "yesenia.villar@email.com"
+    },
+    {
+      "id": 2,
+      "fullName": "Angel Duverge",
+      "matricula": "100185357",
+      "calificacion": "80",
+      "email": "angel.duverge@email.com"
+    },
+    {
+      "id": 3,
+      "fullName": "Jorge Natera",
+      "matricula": "100069021",
+      "calificacion": "75",
+      "email": "Jorge.natera@email.com"
+    },
+    {
+      "id": 4,
+      "fullName": "Mariano Castillo",
+      "matricula": "100183594",
+      "calificacion": "83",
+      "email": "Mariano.castillo@email.com"
+    },
+    {
+      "id": 5,
+      "fullName": "Robert Salazar",
+      "matricula": "100138985",
+      "calificacion": "90",
+      "email": "robert.edwards@email.com"
+    },
+    {
+      "id": 6,
+      "fullName": "Yamilka Lorenzo",
+      "matricula": "100153489",
+      "calificacion": "50",
+      "email": "yamilka.lorenzo@email.com"
+    },
+    {
+      "id": 7,
+      "fullName": "Eliezer Rodriguez",
+      "matricula": "100068914",
+      "calificacion": "70",
+      "email": "eliezer.rodrigue@email.com"
+    },
+    {
+      "id": 8,
+      "fullName": "Crismeilin Pacheco",
+      "matricula": "100156987",
+      "calificacion": "93",
+      "email": "crismeilin.pacheco@email.com"
+    },
+    {
+      "id": 9,
+      "fullName": "Derlin Ortiz",
+      "matricula": "100259883",
+      "calificacion": "75",
+      "email": "derlin.ortiz@email.com"
+    },
+    {
+      "id": 10,
+      "fullName": "Luisanna Cruz",
+      "matricula": "100338920",
+      "calificacion": "95",
+      "email": "luisanna.cruz@email.com"
+    }
+  ]
