@@ -6,12 +6,12 @@ const EditableRow = ({
   handleCancelClick,
 }) => {
   return (
-    <tr>
+    <tr className="formEdi">
       <td>
         <input
           type="text"
           required="required"
-          placeholder="Enter a name..."
+          placeholder="Nombre...."
           name="fullName"
           value={editFormData.fullName}
           onChange={handleEditFormChange}
@@ -21,9 +21,9 @@ const EditableRow = ({
         <input
           type="text"
           required="required"
-          placeholder="Enter an address..."
-          name="address"
-          value={editFormData.address}
+          placeholder="Matricula..."
+          name="matricula"
+          value={editFormData.matricula}
           onChange={handleEditFormChange}
         ></input>
       </td>
@@ -31,9 +31,9 @@ const EditableRow = ({
         <input
           type="text"
           required="required"
-          placeholder="Enter a phone number..."
-          name="phoneNumber"
-          value={editFormData.phoneNumber}
+          placeholder="Calificacion..."
+          name="calificacion"
+          value={editFormData.calificacion}
           onChange={handleEditFormChange}
         ></input>
       </td>

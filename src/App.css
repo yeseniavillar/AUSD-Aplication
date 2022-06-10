@@ -144,7 +144,9 @@ form input {
   color: rgb(37, 36, 36);
   margin: 5px 0px;
 }
-
+.formEdi {
+ color: #1077c5;
+}
 
 input::placeholder{
   color: rgb(43, 41, 41);

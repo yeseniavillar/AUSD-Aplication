@@ -91,7 +91,7 @@ const Layout = () => {
     const formValues = {
       fullName: contact.fullName,
       matricula: contact.matricula,
-      phoneNumber: contact.phoneNumber,
+      calificacion: contact.calificacion,
       email: contact.email,
     };
 
@@ -159,14 +159,14 @@ const Layout = () => {
         />
         <input
           type="text"
-          name="address"
+          name="matricula"
           required="required"
           placeholder="Matricula"
           onChange={handleAddFormChange}
         />
         <input
           type="text"
-          name="phoneNumber"
+          name="calificacion"
           required="required"
           placeholder="Calificacion"
           onChange={handleAddFormChange}
